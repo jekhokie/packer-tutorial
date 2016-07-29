@@ -8,6 +8,12 @@ Make sure the following tools are installed and/or available:
 
 * Packer
 * VirtualBox
+* Vagrant (version 1.8.5+ - used for testing the Vagrant box created)
+
+### Notes
+
+In Vagrant versions prior to 1.8.5, attempting to boot an Ubuntu 16.04 image results in
+an error related to identifying the network interface of the VM incorrectly as eth1.
 
 ## Run
 
