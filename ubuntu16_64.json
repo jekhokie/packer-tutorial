@@ -28,7 +28,8 @@
     "output_directory": "build",
     "ssh_username": "{{user `ssh_username`}}",
     "ssh_password": "{{user `ssh_password`}}",
-    "ssh_pty": "true",
+    "ssh_pty": true,
+    "ssh_timeout": "10m",
     "shutdown_command": "echo '{{user `ssh_username`}}' | sudo -S shutdown -P now",
     "type": "virtualbox-iso",
     "vboxmanage": [
