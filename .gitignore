@@ -4,3 +4,6 @@
 
 # ignore any Mac-related files and directories
 *DS_Store
+
+# ignore the build directory - managed by packer
+build
